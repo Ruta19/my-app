@@ -1,0 +1,1179 @@
+{
+  "tenantList": [
+    {
+      "tenantId": "c47d1314-2509-4c69-90f6-aea6508f7b60",
+      "tenantName": "ICBC Bank"
+    },
+    {
+      "tenantId": "f6ce5065-113c-433d-87ae-caa1112718ae",
+      "tenantName": "JP Bank"
+    },
+    {
+      "tenantId": "c60f6774-432b-4a9b-99f8-36dc4d1c2a62",
+      "tenantName": "HSBC Bank"
+    },
+    {
+      "tenantId": "ah0f6774-432b-4a9b-90f8-36dc4k1c2a62",
+      "tenantName": "SBI Bank"
+    }   
+  
+  ],
+  "dataIntake": [
+    {
+      "key": 1,
+       "tenantId": "c47d1314-2509-4c69-90f6-aea6508f7b60", 
+      "startTime": "2023-03-27T09:30:00.186Z",
+      "endTime": "2023-03-27T09:33:16.642Z",
+      "validationStatus": "Successful",
+      "processingStatus": "Error",
+      "fileData": [
+        {
+          "File_Name": "INDIVIDUAL_20230323.csv",
+          "Start_Time": "2023-03-24T16:00:00.826Z",
+          "End_Time": "2023-03-24T16:01:09.491Z",
+          "Reads": "102,552",
+          "Errors": 0,
+          "Warns": 0,
+          "Ignores": 0,
+          "Writes": "102,552",
+          "Status": "Success"
+        },
+        {
+          "File_Name": "BUSINESS_20230323.csv",
+          "Start_Time": "2023-03-24T16:01:09.572Z",
+          "End_Time": "2023-03-24T16:01:09.584Z",
+          "Reads": 0,
+          "Errors": 0,
+          "Warns": 0,
+          "Ignores": 0,
+          "Writes": 0,
+          "Status": "Warning"
+        },
+        {
+          "File_Name": "EMAIL_20230323.csv",
+          "Start_Time": "2023-03-24T16:01:09.656Z",
+          "End_Time": "2023-03-24T16:01:09.657Z",
+          "Reads": 0,
+          "Errors": 0,
+          "Warns": 0,
+          "Ignores": 0,
+          "Writes": 0,
+          "Status": "Warning"
+        },
+        {
+          "File_Name": "PHONE_20230323.csv",
+          "Start_Time": "2023-03-24T16:01:09.740Z",
+          "End_Time": "2023-03-24T16:05:05.298Z",
+          "Reads": "102,536",
+          "Errors": 0,
+          "Warns": 0,
+          "Ignores": 0,
+          "Writes": "102,536",
+          "Status": "Fail"
+        },
+        {
+          "File_Name": "IDENTIFICATIONDOCUMENT_20230323.csv",
+          "Start_Time": "2023-03-24T16:05:05.370Z",
+          "End_Time": "2023-03-24T16:05:05.371Z",
+          "Reads": "102,536",
+          "Errors": 0,
+          "Warns": 0,
+          "Ignores": 0,
+          "Writes": "102,536",
+          "Status": "Warning"
+        },
+        {
+          "File_Name": "ACCOUNT_20230323.csv",
+          "Start_Time": "2023-03-24T16:05:05.445Z",
+          "End_Time": "2023-03-24T16:08:35.120Z",
+          "Reads": "125,522",
+          "Errors": 0,
+          "Warns": 0,
+          "Ignores": 0,
+          "Writes": "125,522",
+          "Status": "Fail"
+        },
+        {
+          "File_Name": "ACCOUNTRELATIONSHIP_20230323.csv",
+          "Start_Time": "2023-03-24T16:08:35.204Z",
+          "End_Time": "2023-03-24T16:12:23.816Z",
+          "Reads": "125,522",
+          "Errors": 0,
+          "Warns": 0,
+          "Ignores": 0,
+          "Writes": "125,522",
+          "Status": "Success"
+        },
+        {
+          "File_Name": "ADDRESS_20230323.csv",
+          "Start_Time": "2023-03-24T16:12:24.045Z",
+          "End_Time": "2023-03-24T16:17:43.184Z",
+          "Reads": "102,552",
+          "Errors": 0,
+          "Warns": 0,
+          "Ignores": 0,
+          "Writes": "102,552",
+          "Status": "Success"
+        },
+        {
+          "File_Name": "TRANSACTION_20230323.csv",
+          "Start_Time": "2023-03-24T16:17:43.270Z",
+          "End_Time": "2023-03-24T16:18:18.590Z",
+          "Reads": "18,054",
+          "Errors": 0,
+          "Warns": 0,
+          "Ignores": 0,
+          "Writes": "18,054",
+          "Status": "Success"
+        },
+        {
+          "File_Name": "INDIVIDUALBUSINESSRELATIONSHIP_20230323.csv",
+          "Start_Time": "2023-03-24T16:18:18.691Z",
+          "End_Time": "2023-03-24T16:18:18.692Z",
+          "Reads": "18,054",
+          "Errors": 0,
+          "Warns": 0,
+          "Ignores": 0,
+          "Writes": 0,
+          "Status": "Warning"
+        }
+      ]
+    },
+    {
+    "key": 4,
+    "tenantId": "c47d1314-2509-4c69-90f6-aea6508f7b60", 
+   "startTime": "2023-03-27T09:30:00.186Z",
+   "endTime": "2023-03-27T09:33:16.642Z",
+   "validationStatus": "Successful",
+   "processingStatus": "Error",
+   "fileData": [
+     {
+       "File_Name": "INDIVIDUAL_20230323.csv",
+       "Start_Time": "2023-03-24T16:00:00.826Z",
+       "End_Time": "2023-03-24T16:01:09.491Z",
+       "Reads": "102,552",
+       "Errors": 0,
+       "Warns": 0,
+       "Ignores": 0,
+       "Writes": "102,552",
+       "Status": "Success"
+     },
+     {
+       "File_Name": "BUSINESS_20230323.csv",
+       "Start_Time": "2023-03-24T16:01:09.572Z",
+       "End_Time": "2023-03-24T16:01:09.584Z",
+       "Reads": 0,
+       "Errors": 0,
+       "Warns": 0,
+       "Ignores": 0,
+       "Writes": 0,
+       "Status": "Warning"
+     },
+     {
+       "File_Name": "EMAIL_20230323.csv",
+       "Start_Time": "2023-03-24T16:01:09.656Z",
+       "End_Time": "2023-03-24T16:01:09.657Z",
+       "Reads": 0,
+       "Errors": 0,
+       "Warns": 0,
+       "Ignores": 0,
+       "Writes": 0,
+       "Status": "Warning"
+     },
+     {
+       "File_Name": "PHONE_20230323.csv",
+       "Start_Time": "2023-03-24T16:01:09.740Z",
+       "End_Time": "2023-03-24T16:05:05.298Z",
+       "Reads": "102,536",
+       "Errors": 0,
+       "Warns": 0,
+       "Ignores": 0,
+       "Writes": "102,536",
+       "Status": "Success"
+     },
+     {
+       "File_Name": "IDENTIFICATIONDOCUMENT_20230323.csv",
+       "Start_Time": "2023-03-24T16:05:05.370Z",
+       "End_Time": "2023-03-24T16:05:05.371Z",
+       "Reads": "102,536",
+       "Errors": 0,
+       "Warns": 0,
+       "Ignores": 0,
+       "Writes": "102,536",
+       "Status": "Warning"
+     },
+     {
+       "File_Name": "ACCOUNT_20230323.csv",
+       "Start_Time": "2023-03-24T16:05:05.445Z",
+       "End_Time": "2023-03-24T16:08:35.120Z",
+       "Reads": "125,522",
+       "Errors": 0,
+       "Warns": 0,
+       "Ignores": 0,
+       "Writes": "125,522",
+       "Status": "Success"
+     },
+     {
+       "File_Name": "ACCOUNTRELATIONSHIP_20230323.csv",
+       "Start_Time": "2023-03-24T16:08:35.204Z",
+       "End_Time": "2023-03-24T16:12:23.816Z",
+       "Reads": "125,522",
+       "Errors": 0,
+       "Warns": 0,
+       "Ignores": 0,
+       "Writes": "125,522",
+       "Status": "Success"
+     },
+     {
+       "File_Name": "ADDRESS_20230323.csv",
+       "Start_Time": "2023-03-24T16:12:24.045Z",
+       "End_Time": "2023-03-24T16:17:43.184Z",
+       "Reads": "102,552",
+       "Errors": 0,
+       "Warns": 0,
+       "Ignores": 0,
+       "Writes": "102,552",
+       "Status": "Success"
+     },
+     {
+       "File_Name": "TRANSACTION_20230323.csv",
+       "Start_Time": "2023-03-24T16:17:43.270Z",
+       "End_Time": "2023-03-24T16:18:18.590Z",
+       "Reads": "18,054",
+       "Errors": 0,
+       "Warns": 0,
+       "Ignores": 0,
+       "Writes": "18,054",
+       "Status": "Success"
+     },
+     {
+       "File_Name": "INDIVIDUALBUSINESSRELATIONSHIP_20230323.csv",
+       "Start_Time": "2023-03-24T16:18:18.691Z",
+       "End_Time": "2023-03-24T16:18:18.692Z",
+       "Reads": "18,054",
+       "Errors": 0,
+       "Warns": 0,
+       "Ignores": 0,
+       "Writes": 0,
+       "Status": "Warning"
+     }
+   ]
+ },
+    {
+      "key": 2,
+      "tenantId": "f6ce5065-113c-433d-87ae-caa1112718ae",
+      "startTime": "2023-03-25T08:00:03.898Z",
+      "endTime": "2023-03-25T08:00:03.899Z",
+      "validationStatus": "Successful",
+      "processingStatus": "Warning",
+      "fileData": [
+        {
+          "File_Name": "EMAIL_202204.csv",
+          "Start_Time": "2023-03-25T08:00:03.739Z",
+          "End_Time": "2023-03-25T08:00:03.750Z",
+          "Reads": 0,
+          "Errors": 1,
+          "Warns": 0,
+          "Ignores": 4,
+          "Writes": 0,
+          "Status": "Success"
+        },
+        {
+          "File_Name": "BUSINESS_20230323.csv",
+          "Start_Time": "2023-03-24T16:01:09.572Z",
+          "End_Time": "2023-03-24T16:01:09.584Z",
+          "Reads": 0,
+          "Errors": 0,
+          "Warns": 0,
+          "Ignores": 0,
+          "Writes": 0,
+          "Status": "Warning"
+        },
+        {
+          "File_Name": "EMAIL_20230323.csv",
+          "Start_Time": "2023-03-24T16:01:09.656Z",
+          "End_Time": "2023-03-24T16:01:09.657Z",
+          "Reads": 0,
+          "Errors": 0,
+          "Warns": 0,
+          "Ignores": 0,
+          "Writes": 0,
+          "Status": "Warning"
+        },
+        {
+          "File_Name": "PHONE_20230323.csv",
+          "Start_Time": "2023-03-24T16:01:09.740Z",
+          "End_Time": "2023-03-24T16:05:05.298Z",
+          "Reads": "102,536",
+          "Errors": 0,
+          "Warns": 0,
+          "Ignores": 0,
+          "Writes": "102,536",
+          "Status": "Success"
+        },
+        {
+          "File_Name": "IDENTIFICATIONDOCUMENT_20230323.csv",
+          "Start_Time": "2023-03-24T16:05:05.370Z",
+          "End_Time": "2023-03-24T16:05:05.371Z",
+          "Reads": "102,536",
+          "Errors": 0,
+          "Warns": 0,
+          "Ignores": 0,
+          "Writes": "102,536",
+          "Status": "Warning"
+        },
+        {
+          "File_Name": "ACCOUNT_20230323.csv",
+          "Start_Time": "2023-03-24T16:05:05.445Z",
+          "End_Time": "2023-03-24T16:08:35.120Z",
+          "Reads": "125,522",
+          "Errors": 0,
+          "Warns": 0,
+          "Ignores": 0,
+          "Writes": "125,522",
+          "Status": "Success"
+        },
+        {
+          "File_Name": "ACCOUNTRELATIONSHIP_20230323.csv",
+          "Start_Time": "2023-03-24T16:08:35.204Z",
+          "End_Time": "2023-03-24T16:12:23.816Z",
+          "Reads": "125,522",
+          "Errors": 0,
+          "Warns": 0,
+          "Ignores": 0,
+          "Writes": "125,522",
+          "Status": "Success"
+        },
+        {
+          "File_Name": "ADDRESS_20230323.csv",
+          "Start_Time": "2023-03-24T16:12:24.045Z",
+          "End_Time": "2023-03-24T16:17:43.184Z",
+          "Reads": "102,552",
+          "Errors": 0,
+          "Warns": 0,
+          "Ignores": 0,
+          "Writes": "102,552",
+          "Status": "Success"
+        },
+        {
+          "File_Name": "TRANSACTION_20230323.csv",
+          "Start_Time": "2023-03-24T16:17:43.270Z",
+          "End_Time": "2023-03-24T16:18:18.590Z",
+          "Reads": "18,054",
+          "Errors": 0,
+          "Warns": 0,
+          "Ignores": 0,
+          "Writes": "18,054",
+          "Status": "Success"
+        },
+        {
+          "File_Name": "INDIVIDUALBUSINESSRELATIONSHIP_20230323.csv",
+          "Start_Time": "2023-03-24T16:18:18.691Z",
+          "End_Time": "2023-03-24T16:18:18.692Z",
+          "Reads": "18,054",
+          "Errors": 0,
+          "Warns": 0,
+          "Ignores": 0,
+          "Writes": 0,
+          "Status": "Warning"
+        }
+      ]
+    },
+    {
+      "key": 3,
+      "tenantId": "c60f6774-432b-4a9b-99f8-36dc4d1c2a62",
+      "startTime": "2023-03-27T09:30:00.186Z",
+      "endTime": "2023-03-27T09:33:16.642Z",
+      "validationStatus": "Successful",
+      "processingStatus": "Error",
+      "fileData": [
+        {
+          "File_Name": "INDIVIDUAL_202204.csv",
+          "Start_Time": "2023-03-25T08:00:03.739Z",
+          "End_Time": "2023-03-25T08:00:03.750Z",
+          "Reads": 0,
+          "Errors": 0,
+          "Warns": 0,
+          "Ignores": 0,
+          "Writes": 0,
+          "Status": "Warning"
+        },
+        {
+          "File_Name": "BUSINESS_20230323.csv",
+          "Start_Time": "2023-03-24T16:01:09.572Z",
+          "End_Time": "2023-03-24T16:01:09.584Z",
+          "Reads": 0,
+          "Errors": 0,
+          "Warns": 0,
+          "Ignores": 0,
+          "Writes": 0,
+          "Status": "Warning"
+        },
+        {
+          "File_Name": "EMAIL_20230323.csv",
+          "Start_Time": "2023-03-24T16:01:09.656Z",
+          "End_Time": "2023-03-24T16:01:09.657Z",
+          "Reads": 0,
+          "Errors": 0,
+          "Warns": 0,
+          "Ignores": 0,
+          "Writes": 0,
+          "Status": "Warning"
+        },
+        {
+          "File_Name": "PHONE_20230323.csv",
+          "Start_Time": "2023-03-24T16:01:09.740Z",
+          "End_Time": "2023-03-24T16:05:05.298Z",
+          "Reads": "102,536",
+          "Errors": 0,
+          "Warns": 0,
+          "Ignores": 0,
+          "Writes": "102,536",
+          "Status": "Success"
+        },
+        {
+          "File_Name": "IDENTIFICATIONDOCUMENT_20230323.csv",
+          "Start_Time": "2023-03-24T16:05:05.370Z",
+          "End_Time": "2023-03-24T16:05:05.371Z",
+          "Reads": "102,536",
+          "Errors": 0,
+          "Warns": 0,
+          "Ignores": 0,
+          "Writes": "102,536",
+          "Status": "Warning"
+        },
+        {
+          "File_Name": "ACCOUNT_20230323.csv",
+          "Start_Time": "2023-03-24T16:05:05.445Z",
+          "End_Time": "2023-03-24T16:08:35.120Z",
+          "Reads": "125,522",
+          "Errors": 0,
+          "Warns": 0,
+          "Ignores": 0,
+          "Writes": "125,522",
+          "Status": "Success"
+        },
+        {
+          "File_Name": "ACCOUNTRELATIONSHIP_20230323.csv",
+          "Start_Time": "2023-03-24T16:08:35.204Z",
+          "End_Time": "2023-03-24T16:12:23.816Z",
+          "Reads": "125,522",
+          "Errors": 0,
+          "Warns": 0,
+          "Ignores": 0,
+          "Writes": "125,522",
+          "Status": "Success"
+        },
+        {
+          "File_Name": "ADDRESS_20230323.csv",
+          "Start_Time": "2023-03-24T16:12:24.045Z",
+          "End_Time": "2023-03-24T16:17:43.184Z",
+          "Reads": "102,552",
+          "Errors": 0,
+          "Warns": 0,
+          "Ignores": 0,
+          "Writes": "102,552",
+          "Status": "Success"
+        },
+        {
+          "File_Name": "TRANSACTION_20230323.csv",
+          "Start_Time": "2023-03-24T16:17:43.270Z",
+          "End_Time": "2023-03-24T16:18:18.590Z",
+          "Reads": "18,054",
+          "Errors": 0,
+          "Warns": 0,
+          "Ignores": 0,
+          "Writes": "18,054",
+          "Status": "Success"
+        },
+        {
+          "File_Name": "INDIVIDUALBUSINESSRELATIONSHIP_20230323.csv",
+          "Start_Time": "2023-03-24T16:18:18.691Z",
+          "End_Time": "2023-03-24T16:18:18.692Z",
+          "Reads": "18,054",
+          "Errors": 0,
+          "Warns": 0,
+          "Ignores": 0,
+          "Writes": 0,
+          "Status": "Warning"
+        }
+      ]
+    }
+  ],
+  "dataValidation": [
+    {
+      "key": 1,
+      "tenantId": "c47d1314-2509-4c69-90f6-aea6508f7b60",
+      "fileHeader": [
+        {
+          "StartTime": "2023-04-05T16:02:55.203 UTC",
+          "ZipFileName": "001.20230405.1.zip"
+        }
+      ],
+
+      "fileData": [
+        {
+          "fileName": "BUSINESS_20230405.csv",
+          "total Records": 0,
+          "errors": 0,
+          "warns": 1
+        },
+        {
+          "fileName": "INDIVIDUAL_20230405.csv",
+          "total Records": "102,967",
+          "errors": 0,
+          "warns": 1
+        },
+        {
+          "fileName": "IDENTIFICATIONDOCUMENT_20230405.csv",
+          "total Records": 0,
+          "errors": 0,
+          "warns": 0
+        },
+        {
+          "fileName": "ACCOUNT_20230405.csv",
+          "total Records": "126,279",
+          "errors": 0,
+          "warns": 0
+        },
+        {
+          "fileName": "TRANSACTION_20230405.csv",
+          "total Records": "16,682",
+          "errors": 9,
+          "warns": 0
+        },
+        {
+          "fileName": "ADDRESS_20230405.csv",
+          "total Records": "102,967",
+          "errors": 0,
+          "warns": 0
+        },
+        {
+          "fileName": "EMAIL_20230405.csv",
+          "total Records": 0,
+          "errors": 0,
+          "warns": 0
+        },
+        {
+          "fileName": "PHONE_20230405.csv",
+          "total Records": "102,967",
+          "errors": 16,
+          "warns": 0
+        },
+        {
+          "fileName": "INDIVIDUALBUSINESSRELATIONSHIP_20230405.csv",
+          "total Records": 0,
+          "errors": 0,
+          "warns": 0
+        },
+        {
+          "fileName": "ACCOUNTRELATIONSHIP_20230405.csv",
+          "total Records": "126,279",
+          "errors": 0,
+          "warns": 0
+        },
+        {
+          "fileName": "CHECKDATA_20230405.csv",
+          "total Records": 0,
+          "errors": 0,
+          "warns": 0
+        }
+      ]
+    },
+    {
+      "key": 2,
+      "tenantId": "f6ce5065-113c-433d-87ae-caa1112718ae",
+      "fileHeader":[
+        {
+          "StartTime": "2023-04-01T19:02:55.203 UTC",
+          "ZipFileName": "002.20230405.2.zip"
+        }
+      ],
+   
+      "fileData": [
+        {
+          "fileName": "BUSINESS_20230405.csv",
+          "total Records": 0,
+          "errors": 0,
+          "warns": 1
+        },
+        {
+          "fileName": "INDIVIDUAL_20230405.csv",
+          "total Records": "102,967",
+          "errors": 0,
+          "warns": 1
+        },
+        {
+          "fileName": "IDENTIFICATIONDOCUMENT_20230405.csv",
+          "total Records": 0,
+          "errors": 0,
+          "warns": 0
+        },
+        {
+          "fileName": "ACCOUNT_20230405.csv",
+          "total Records": "126,279",
+          "errors": 0,
+          "warns": 0
+        },
+        {
+          "fileName": "TRANSACTION_20230405.csv",
+          "total Records": "16,682",
+          "errors": 9,
+          "warns": 0
+        },
+        {
+          "fileName": "ADDRESS_20230405.csv",
+          "total Records": "102,967",
+          "errors": 0,
+          "warns": 0
+        },
+        {
+          "fileName": "EMAIL_20230405.csv",
+          "total Records": 0,
+          "errors": 0,
+          "warns": 0
+        },
+        {
+          "fileName": "PHONE_20230405.csv",
+          "total Records": "102,967",
+          "errors": 16,
+          "warns": 0
+        },
+        {
+          "fileName": "INDIVIDUALBUSINESSRELATIONSHIP_20230405.csv",
+          "total Records": 0,
+          "errors": 0,
+          "warns": 0
+        },
+        {
+          "fileName": "ACCOUNTRELATIONSHIP_20230405.csv",
+          "total Records": "126,279",
+          "errors": 0,
+          "warns": 0
+        },
+        {
+          "fileName": "CHECKDATA_20230405.csv",
+          "total Records": 0,
+          "errors": 0,
+          "warns": 0
+        }
+      ]
+    },
+    {
+      "key": 3,
+      "tenantId": "c60f6774-432b-4a9b-99f8-36dc4d1c2a62",
+      "fileHeader":[
+        {
+          "StartTime": "2023-04-02T16:02:55.203 UTC",
+      "ZipFileName": "003.20230405.3.zip"
+        }
+      ],
+      
+      "fileData": [
+        {
+          "fileName": "BUSINESS_20230405.csv",
+          "total Records": 0,
+          "errors": 0,
+          "warns": 1
+        },
+        {
+          "fileName": "INDIVIDUAL_20230405.csv",
+          "total Records": "102,967",
+          "errors": 0,
+          "warns": 1
+        },
+        {
+          "fileName": "IDENTIFICATIONDOCUMENT_20230405.csv",
+          "total Records": 0,
+          "errors": 0,
+          "warns": 0
+        },
+        {
+          "fileName": "ACCOUNT_20230405.csv",
+          "total Records": "126,279",
+          "errors": 0,
+          "warns": 0
+        },
+        {
+          "fileName": "TRANSACTION_20230405.csv",
+          "total Records": "16,682",
+          "errors": 9,
+          "warns": 0
+        },
+        {
+          "fileName": "ADDRESS_20230405.csv",
+          "total Records": "102,967",
+          "errors": 0,
+          "warns": 0
+        },
+        {
+          "fileName": "EMAIL_20230405.csv",
+          "total Records": 0,
+          "errors": 0,
+          "warns": 0
+        },
+        {
+          "fileName": "PHONE_20230405.csv",
+          "total Records": "102,967",
+          "errors": 16,
+          "warns": 0
+        },
+        {
+          "fileName": "INDIVIDUALBUSINESSRELATIONSHIP_20230405.csv",
+          "total Records": 0,
+          "errors": 0,
+          "warns": 0
+        },
+        {
+          "fileName": "ACCOUNTRELATIONSHIP_20230405.csv",
+          "total Records": "126,279",
+          "errors": 0,
+          "warns": 0
+        },
+        {
+          "fileName": "CHECKDATA_20230405.csv",
+          "total Records": 0,
+          "errors": 0,
+          "warns": 0
+        }
+      ]
+    }
+  ],
+  "ruleProcessing": [
+    {
+      "key": 1,
+      "tenantId": "c47d1314-2509-4c69-90f6-aea6508f7b60",
+      "fileHeader": [
+        {
+          "StartTime": "2023-04-05T16:20:03.251Z",
+          "TotalAlerts": "4",
+          "TotalIncidents": "4"
+        }
+      ],
+
+      "fileData": [
+        {
+          "Rule Name": "Debit Card Spend Monitoring",
+          "Start Time": "undefined",
+          "End TIme": "undefined",
+          "Time Taken (ms)": "undefined",
+          "New Incidents": 0,
+          "New Alerts": 0,
+          "Modified Alerts": 0
+        },
+        {
+          "Rule Name": "Transaction Type With Cash",
+          "Start Time": "2023-04-05T16:19:57.075Z",
+          "End TIme": "2023-04-05T16:19:57.317Z",
+          "Time Taken (ms)": 242,
+          "New Incidents": 0,
+          "New Alerts": 0,
+          "Modified Alerts": 0
+        },
+        {
+          "Rule Name": "Large Dollar (In and Out)",
+          "Start Time": "2023-04-05T16:19:57.317Z",
+          "End TIme": "2023-04-05T16:19:59.065Z",
+          "Time Taken (ms)": "1,748",
+          "New Incidents": 4,
+          "New Alerts": 4,
+          "Modified Alerts": 0
+        },
+        {
+          "Rule Name": "Velocity Aggregate",
+          "Start Time": "2023-04-05T16:19:59.066Z",
+          "End TIme": "2023-04-05T16:20:00.022Z",
+          "Time Taken (ms)": 956,
+          "New Incidents": 0,
+          "New Alerts": 0,
+          "Modified Alerts": 0
+        },
+        {
+          "Rule Name": "Transaction/Spend Threshold",
+          "Start Time": "2023-04-05T16:20:00.023Z",
+          "End TIme": "2023-04-05T16:20:00.269Z",
+          "Time Taken (ms)": 246,
+          "New Incidents": 0,
+          "New Alerts": 0,
+          "Modified Alerts": 0
+        },
+        {
+          "Rule Name": "Load/Deposit Threshold",
+          "Start Time": "2023-04-05T16:20:00.270Z",
+          "End TIme": "2023-04-05T16:20:00.478Z",
+          "Time Taken (ms)": 208,
+          "New Incidents": 0,
+          "New Alerts": 0,
+          "Modified Alerts": 0
+        },
+        {
+          "Rule Name": "Historical Behavior Comparison",
+          "Start Time": "2023-04-05T16:20:00.478Z",
+          "End TIme": "2023-04-05T16:20:01.009Z",
+          "Time Taken (ms)": 531,
+          "New Incidents": 0,
+          "New Alerts": 0,
+          "Modified Alerts": 0
+        },
+        {
+          "Rule Name": "High Spend",
+          "Start Time": "2023-04-05T16:20:01.009Z",
+          "End TIme": "2023-04-05T16:20:01.109Z",
+          "Time Taken (ms)": 100,
+          "New Incidents": 0,
+          "New Alerts": 0,
+          "Modified Alerts": 0
+        },
+        {
+          "Rule Name": "New Account Fraud",
+          "Start Time": "2023-04-05T16:20:01.109Z",
+          "End TIme": "2023-04-05T16:20:02.436Z",
+          "Time Taken (ms)": 1327,
+          "New Incidents": 0,
+          "New Alerts": 0,
+          "Modified Alerts": 0
+        },
+        {
+          "Rule Name": "Debit Card Fraud",
+          "Start Time": "2023-04-05T16:20:02.436Z",
+          "End TIme": "2023-04-05T16:20:03.251Z",
+          "Time Taken (ms)": 815,
+          "New Incidents": 0,
+          "New Alerts": 0,
+          "Modified Alerts": 0
+        }
+      ]
+    },
+    {
+      "key": 2,
+      "tenantId": "f6ce5065-113c-433d-87ae-caa1112718ae",
+      "fileHeader": [
+        {
+          "StartTime": "2023-04-06T17:20:03.251Z",
+          "TotalAlerts": "7",
+          "TotalIncidents": "2"
+        }
+      ],
+      "fileData": [
+        {
+          "Rule Name": "Debit Card Spend Monitoring",
+          "Start Time": "undefined",
+          "End TIme": "undefined",
+          "Time Taken (ms)": "undefined",
+          "New Incidents": 0,
+          "New Alerts": 0,
+          "Modified Alerts": 0
+        },
+        {
+          "Rule Name": "Transaction Type With Cash",
+          "Start Time": "2023-04-05T16:19:57.075Z",
+          "End TIme": "2023-04-05T16:19:57.317Z",
+          "Time Taken (ms)": 242,
+          "New Incidents": 0,
+          "New Alerts": 0,
+          "Modified Alerts": 0
+        },
+        {
+          "Rule Name": "Large Dollar (In and Out)",
+          "Start Time": "2023-04-05T16:19:57.317Z",
+          "End TIme": "2023-04-05T16:19:59.065Z",
+          "Time Taken (ms)": "1,748",
+          "New Incidents": 4,
+          "New Alerts": 4,
+          "Modified Alerts": 0
+        },
+        {
+          "Rule Name": "Velocity Aggregate",
+          "Start Time": "2023-04-05T16:19:59.066Z",
+          "End TIme": "2023-04-05T16:20:00.022Z",
+          "Time Taken (ms)": 956,
+          "New Incidents": 0,
+          "New Alerts": 0,
+          "Modified Alerts": 0
+        },
+        {
+          "Rule Name": "Transaction/Spend Threshold",
+          "Start Time": "2023-04-05T16:20:00.023Z",
+          "End TIme": "2023-04-05T16:20:00.269Z",
+          "Time Taken (ms)": 246,
+          "New Incidents": 0,
+          "New Alerts": 0,
+          "Modified Alerts": 0
+        },
+        {
+          "Rule Name": "Load/Deposit Threshold",
+          "Start Time": "2023-04-05T16:20:00.270Z",
+          "End TIme": "2023-04-05T16:20:00.478Z",
+          "Time Taken (ms)": 208,
+          "New Incidents": 0,
+          "New Alerts": 0,
+          "Modified Alerts": 0
+        },
+        {
+          "Rule Name": "Historical Behavior Comparison",
+          "Start Time": "2023-04-05T16:20:00.478Z",
+          "End TIme": "2023-04-05T16:20:01.009Z",
+          "Time Taken (ms)": 531,
+          "New Incidents": 0,
+          "New Alerts": 0,
+          "Modified Alerts": 0
+        },
+        {
+          "Rule Name": "High Spend",
+          "Start Time": "2023-04-05T16:20:01.009Z",
+          "End TIme": "2023-04-05T16:20:01.109Z",
+          "Time Taken (ms)": 100,
+          "New Incidents": 0,
+          "New Alerts": 0,
+          "Modified Alerts": 0
+        },
+        {
+          "Rule Name": "New Account Fraud",
+          "Start Time": "2023-04-05T16:20:01.109Z",
+          "End TIme": "2023-04-05T16:20:02.436Z",
+          "Time Taken (ms)": 1327,
+          "New Incidents": 0,
+          "New Alerts": 0,
+          "Modified Alerts": 0
+        },
+        {
+          "Rule Name": "Debit Card Fraud",
+          "Start Time": "2023-04-05T16:20:02.436Z",
+          "End TIme": "2023-04-05T16:20:03.251Z",
+          "Time Taken (ms)": 815,
+          "New Incidents": 0,
+          "New Alerts": 0,
+          "Modified Alerts": 0
+        }
+      ]
+    },
+    {
+      "key": 3,
+      "tenantId": "c60f6774-432b-4a9b-99f8-36dc4d1c2a62",
+      "fileheader": [
+        {
+          "StartTime": "2023-04-06T21:20:03.251Z",
+          "TotalAlerts": "6",
+          "TotalIncidents": "1"
+        }
+      ],
+      "fileData": [
+        {
+          "Rule Name": "Debit Card Spend Monitoring",
+          "Start Time": "undefined",
+          "End TIme": "undefined",
+          "Time Taken (ms)": "undefined",
+          "New Incidents": 0,
+          "New Alerts": 0,
+          "Modified Alerts": 0
+        },
+        {
+          "Rule Name": "Transaction Type With Cash",
+          "Start Time": "2023-04-05T16:19:57.075Z",
+          "End TIme": "2023-04-05T16:19:57.317Z",
+          "Time Taken (ms)": 242,
+          "New Incidents": 0,
+          "New Alerts": 0,
+          "Modified Alerts": 0
+        },
+        {
+          "Rule Name": "Large Dollar (In and Out)",
+          "Start Time": "2023-04-05T16:19:57.317Z",
+          "End TIme": "2023-04-05T16:19:59.065Z",
+          "Time Taken (ms)": "1,748",
+          "New Incidents": 4,
+          "New Alerts": 4,
+          "Modified Alerts": 0
+        },
+        {
+          "Rule Name": "Velocity Aggregate",
+          "Start Time": "2023-04-05T16:19:59.066Z",
+          "End TIme": "2023-04-05T16:20:00.022Z",
+          "Time Taken (ms)": 956,
+          "New Incidents": 0,
+          "New Alerts": 0,
+          "Modified Alerts": 0
+        },
+        {
+          "Rule Name": "Transaction/Spend Threshold",
+          "Start Time": "2023-04-05T16:20:00.023Z",
+          "End TIme": "2023-04-05T16:20:00.269Z",
+          "Time Taken (ms)": 246,
+          "New Incidents": 0,
+          "New Alerts": 0,
+          "Modified Alerts": 0
+        },
+        {
+          "Rule Name": "Load/Deposit Threshold",
+          "Start Time": "2023-04-05T16:20:00.270Z",
+          "End TIme": "2023-04-05T16:20:00.478Z",
+          "Time Taken (ms)": 208,
+          "New Incidents": 0,
+          "New Alerts": 0,
+          "Modified Alerts": 0
+        },
+        {
+          "Rule Name": "Historical Behavior Comparison",
+          "Start Time": "2023-04-05T16:20:00.478Z",
+          "End TIme": "2023-04-05T16:20:01.009Z",
+          "Time Taken (ms)": 531,
+          "New Incidents": 0,
+          "New Alerts": 0,
+          "Modified Alerts": 0
+        },
+        {
+          "Rule Name": "High Spend",
+          "Start Time": "2023-04-05T16:20:01.009Z",
+          "End TIme": "2023-04-05T16:20:01.109Z",
+          "Time Taken (ms)": 100,
+          "New Incidents": 0,
+          "New Alerts": 0,
+          "Modified Alerts": 0
+        },
+        {
+          "Rule Name": "New Account Fraud",
+          "Start Time": "2023-04-05T16:20:01.109Z",
+          "End TIme": "2023-04-05T16:20:02.436Z",
+          "Time Taken (ms)": 1327,
+          "New Incidents": 0,
+          "New Alerts": 0,
+          "Modified Alerts": 0
+        },
+        {
+          "Rule Name": "Debit Card Fraud",
+          "Start Time": "2023-04-05T16:20:02.436Z",
+          "End TIme": "2023-04-05T16:20:03.251Z",
+          "Time Taken (ms)": 815,
+          "New Incidents": 0,
+          "New Alerts": 0,
+          "Modified Alerts": 0
+        }
+      ]
+    }
+  ],
+  "clearAlerts": [
+    {
+      "key": "1",
+      "tenantId": "c47d1314-2509-4c69-90f6-aea6508f7b60",
+      "fileHeader": [
+        {
+          "StartTime": "2023-04-06T06:02:44.568Z",
+          "endTime": "2023-04-06T06:02:44.940Z",
+          "TotalAlerts": "0",
+          "TotalIncidents": "6"
+        }
+      ],
+      "fileData": [
+        {
+          "ruleName": "Elder Abuse",
+          "startTime": "2023-04-06T06:02:44.568Z",
+          "endTime": "2023-04-06T06:02:44.827Z",
+          "timeTaken(ms)": "259",
+          "newIncidents": "0",
+          "newAlerts": "0",
+          "ModifiedAlerts": "0"
+        },
+        {
+          "ruleName": "REPORT 10 - Large, frequent payments",
+          "startTime": "2023-04-06T06:02:44.827Z",
+          "endTime": "2023-04-06T06:02:44.880Z",
+          "timeTaken(ms)": "53",
+          "newIncidents": "0",
+          "newAlerts": "0",
+          "ModifiedAlerts": "0"
+        },
+        {
+          "ruleName": "REPORT 11 - Single, unusually large payments",
+          "startTime": "2023-04-06T06:02:44.881Z",
+          "endTime": "2023-04-06T06:02:44.940Z",
+          "timeTaken(ms)": "59",
+          "newIncidents": "0",
+          "newAlerts": "0",
+          "ModifiedAlerts": "0"
+        }
+      ]
+    },
+    {
+      "key": "2",
+      "tenantId": "f6ce5065-113c-433d-87ae-caa1112718ae",
+      "fileHeader": [
+        {
+          "StartTime": "2023-05-06T06:02:40.568Z",
+          "endTime": "2023-05-06T06:02:40.940Z",
+          "TotalAlerts": "0",
+          "TotalIncidents": "0"
+        }
+      ],
+      "fileData": [
+        {
+          "ruleName": "Elder Abuse 2",
+          "startTime": "2023-04-06T06:02:44.568Z",
+          "endTime": "2023-04-06T06:02:44.827Z",
+          "timeTaken(ms)": "259",
+          "newIncidents": "0",
+          "newAlerts": "0",
+          "ModifiedAlerts": "0"
+        },
+        {
+          "ruleName": "REPORT 10 - Large, frequent payments 2",
+          "startTime": "2023-04-06T06:02:44.827Z",
+          "endTime": "2023-04-06T06:02:44.880Z",
+          "timeTaken(ms)": "53",
+          "newIncidents": "0",
+          "newAlerts": "0",
+          "ModifiedAlerts": "0"
+        },
+        {
+          "ruleName": "REPORT 11 - Single, unusually large payments 2",
+          "startTime": "2023-04-06T06:02:44.881Z",
+          "endTime": "2023-04-06T06:02:44.940Z",
+          "timeTaken(ms)": "59",
+          "newIncidents": "0",
+          "newAlerts": "0",
+          "ModifiedAlerts": "0"
+        }
+      ]
+    },
+    {
+      "key": "3",
+      "tenantId": "c60f6774-432b-4a9b-99f8-36dc4d1c2a62",
+      "fileHeader": [
+        {
+          "StartTime": "2023-06-06T06:02:44.568Z",
+          "endTime": "2023-06-06T06:02:44.940Z",
+          "TotalAlerts": "2",
+          "TotalIncidents": "8"
+        }
+      ],
+      "fileData": [
+        {
+          "ruleName": "Elder Abuse 3",
+          "startTime": "2023-04-06T06:02:44.568Z",
+          "endTime": "2023-04-06T06:02:44.827Z",
+          "timeTaken(ms)": "259",
+          "newIncidents": "0",
+          "newAlerts": "0",
+          "ModifiedAlerts": "0"
+        },
+        {
+          "ruleName": "REPORT 10 - Large, frequent payments 3",
+          "startTime": "2023-04-06T06:02:44.827Z",
+          "endTime": "2023-04-06T06:02:44.880Z",
+          "timeTaken(ms)": "53",
+          "newIncidents": "0",
+          "newAlerts": "0",
+          "ModifiedAlerts": "0"
+        },
+        {
+          "ruleName": "REPORT 11 - Single, unusually large payments 3",
+          "startTime": "2023-04-06T06:02:44.881Z",
+          "endTime": "2023-04-06T06:02:44.940Z",
+          "timeTaken(ms)": "59",
+          "newIncidents": "0",
+          "newAlerts": "0",
+          "ModifiedAlerts": "0"
+        }
+      ]
+    }
+  ]
+}
